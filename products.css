@@ -1,0 +1,86 @@
+/* Name: Marisha Rahman 
+    ID: 2010742 */
+    .logo{
+        height: 100px;
+        width: 100px;
+     }
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #cc7c14;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+     
+    
+    img{
+        width: 300px;
+        border-radius: 1%;
+        margin-left: 200px;
+    }
+    .inner{
+        border: 2px solid grey;
+        height: 350px; 
+        background-color: rgb(196, 113, 35);
+        margin: 10px;
+        margin-left: 50px;
+        padding: 10px;
+        padding-right: 50px;
+        width: 250px;
+    }
+    
+    .container{
+        
+        display: grid; 
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+    
+    .inner img{
+        margin-left: 40px;
+        max-width: 200px;
+        max-height: 300px;
+    }
+    
+    .inner:hover{
+        border: 2px solid lightcoral;
+        box-shadow: 2px 5px 6px grey;
+    }
+    
+    h1{
+        font-family: "Love Ya Like A Sister", cursive;
+      font-weight: 400;
+      font-style: normal;
+          
+    }
+    
+    h3 {
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+    }
+    
+    p{
+        font-family: "Sawarabi Mincho", serif;
+      font-weight: 400;
+      font-style: normal;
+        color: rgb(5, 5, 5);  
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+     padding: 3px;
+     background-color: rgb(201, 142, 34);
+       color: white; }  
